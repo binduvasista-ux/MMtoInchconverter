@@ -24,8 +24,8 @@ namespace MMtoInchconverter
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddIntegerParameter("R", "R", "Provide value for Red (0-255)", GH_ParamAccess.item, 255);
-            pManager.AddIntegerParameter("G", "G", "Provide value for Green (0-255)", GH_ParamAccess.item, 255);
+            pManager.AddIntegerParameter("R1", "R", "Provide value for Red (0-255)", GH_ParamAccess.item, 255);
+            pManager.AddIntegerParameter("G1", "G", "Provide value for Green (0-255)", GH_ParamAccess.item, 255);
             pManager.AddIntegerParameter("B", "B", "Provide value for Blue (0-255)", GH_ParamAccess.item, 255);
         }
 
